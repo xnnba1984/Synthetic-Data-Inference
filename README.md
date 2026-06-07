@@ -1,8 +1,8 @@
-# Code for Synthetic-Data Inference Paper
+# Statistical Inference with Audited and Synthetic Data under Discrepancy Bounds
+
 
 This repository contains the code used to generate the computational results
-for a methodology paper on combining audited real data with synthetic data for
-valid statistical inference.
+for the paper "**Statistical Inference with Audited and Synthetic Data under Discrepancy Bounds**".
 
 The paper studies a setting with a real target distribution `P`, a synthetic
 generator distribution `Q`, a small audited sample, and a larger synthetic
@@ -32,8 +32,6 @@ figures/
 tables/
 ```
 
-No cached results, figures, tables, manuscript files, review files, or local
-planning notes are included in this package.
 
 ## Dependencies
 
@@ -103,7 +101,7 @@ make_paper_outputs.py
 ```
 
 The final script, `make_paper_outputs.py`, reads the generated CSV summaries and
-creates the paper-facing figures and summary tables.
+creates the paper figures and summary tables.
 
 ## Outputs
 
